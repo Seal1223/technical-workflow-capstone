@@ -16,3 +16,17 @@ Verification:
 - `git status` showed a clean working tree.
 - The resolved content was preserved on `main`.
 - The completed merge was pushed to GitHub.
+
+## Fresh-Clone Recovery Exercise
+
+I simulated loss of the local working copy by renaming the original repository folder and cloning a fresh copy from GitHub.
+
+The fresh clone recovered:
+- committed files
+- commit history
+- branches/history available from the remote
+- the GitHub remote connection
+
+GitHub would not recover local changes that had never been committed and pushed.
+
+The fresh repository was verified with `git status`, `git log --oneline`, and `git remote -v`.

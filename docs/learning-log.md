@@ -1,3 +1,3 @@
 # Learning Log
 
-Current focus: Phase 00 Git workflow practice.
+Current focus: Practicing merge conflict resolution on a feature branch.

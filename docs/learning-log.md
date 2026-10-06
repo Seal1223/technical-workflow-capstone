@@ -1,3 +1,3 @@
 # Learning Log
 
-Current focus: Phase 00 Git workflow practice.
+Current focus: Building confidence with Git branching and merges.

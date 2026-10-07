@@ -1,6 +1,6 @@
 # Technical Workflow Capstone
 
-**Status:** In Progress — Phase 00
+**Status:** Ready for Phase 00 Graduation Test
 
 ## Objective
 
@@ -25,7 +25,7 @@ This project is being used to practice and validate:
 ## Repository Structure
 
 - `docs/` — workflow, recovery, security, and learning documentation
-- `site/` — GitHub Pages content
+- `docs/index.md` — GitHub Pages portfolio content
 - `.gitignore` — files intentionally excluded from version control
 - `README.md` — project overview
 
@@ -51,7 +51,15 @@ Recovery exercises and results will be documented in `docs/recovery-log.md`.
 
 ## Lessons Learned
 
-This section will be updated as the capstone progresses.
+Git and GitHub serve different roles: Git manages local version history, while GitHub provides remote hosting, collaboration, review, project tracking, and publishing.
+
+A local-first workflow using VS Code and Git provides deliberate control over changes before they are pushed to GitHub.
+
+Branches and pull requests allow changes to be isolated and reviewed before they affect `main`.
+
+Merge conflicts are normal Git events that require understanding the competing changes rather than blindly accepting one version.
+
+A remote Git repository can recover committed and pushed project history, but it does not replace a complete backup strategy for uncommitted or non-repository data.
 
 ## Limitations
 
@@ -59,4 +67,4 @@ This repository demonstrates foundational technical workflow skills. It is not i
 
 ## Future Improvements
 
-This section will be updated as additional Phase 00 capabilities are completed.
+Future projects will reuse this workflow while adding phase-appropriate software development, testing, infrastructure, security, and deployment practices as those skills are introduced by the curriculum.
